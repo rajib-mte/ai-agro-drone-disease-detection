@@ -24,8 +24,8 @@ logs/
 *.log
 
 # Dataset files
-dataset/
-data/
+# dataset/
+# data/
 
 # Images and videos
 # *.jpg
