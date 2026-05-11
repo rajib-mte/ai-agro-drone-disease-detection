@@ -34,7 +34,7 @@ print("Classes:", class_names)
 # 0 = default laptop webcam
 # 1 = external webcam
 # -----------------------------
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 
 if not cap.isOpened():
     raise RuntimeError("Could not open webcam. Try changing 0 to 1.")
